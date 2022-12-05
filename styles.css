@@ -1,74 +1,61 @@
-main {
-    background-color: white;
-    margin: 0 auto;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 body {
-    background-color:#ECF5F6;
-   
+    background-color: darkblue;
 }
 
-.nav-content {
-   display:flex;
-   flex-wrap:wrap;
-   flex-direction:row; 
-   justify-content:center;
-   background-color:black;
-   margin-right:15%;
-   margin-left:15%;
-   background-size:40px;
+header,
+footer,
+.content {
+    margin: 0 10%;
+    background-color: white;
 }
 
-.nav-content a {
-    text-decoration: none;
-}
-
-.nav-home,
-.nav-examples,
-.nav-methods {
-    padding:2%;
-    background-color:bisque;
-    margin:2%;
-}
-
-.nav-home {
-    padding-right:7%;
-    padding-left:7%;
-}
-
-.logo{
-display: flex;
-width: 10%;
-}
-
-#Navimg {
-   width: 10%;
-   justify-content: space-between;
-   width: 50%;
-}
-
-.Home-Content {
+.flex {
     display: flex;
-    max-width: 100%;
-    padding: 2em;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img {
+    height: 20vh;
+}
+
+.topNav {
+    width: 50%;
+    background-color: #7B7171;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topNav > a {
+    background-color: #C1B4B4;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    text-align: center;
 }
 
 .content {
-    margin-left: 3em;
-    width: 40%;
-    margin: 0 auto;
-    margin-top: 70px;
-    font-size: 25px;
+    padding-top: 40px;
 }
 
-.cart-logo img {
-    height:100px;
-    display:flex;
-    justify-content: space-between;
-    position:absolute;
-    right:30px;
-    padding:15px;
+.hero > p {
+    width: 38vw;
+    height: 300px;
+    margin-left: 10px;
+    text-align: end;
 }
 
+.heroText {
+    background-image: url("Images/Placeholder Hero image.PNG");
+    color: white;
+}
+
+.contentSection {
+    padding: 20px;
+}
