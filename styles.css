@@ -5,7 +5,7 @@ body {
 header,
 footer,
 .content {
-    margin: 0 10%;
+    margin: 0 5%;
     background-color: white;
 }
 
@@ -58,4 +58,17 @@ footer,
 
 .contentSection {
     padding: 20px;
+}
+
+.awarenesscontent {
+background-color: white;
+width: 84.8%;
+padding: 20px;
+margin-left: 38px;
+}
+
+.acheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
