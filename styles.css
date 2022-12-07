@@ -52,7 +52,7 @@ footer,
 }
 
 .heroText {
-    background-image: url("Images/Placeholder Hero image.PNG");
+    background-image: url("../Situational-Awareness-website/Images/");
     color: white;
 }
 
@@ -62,9 +62,9 @@ footer,
 
 .awarenesscontent {
 background-color: white;
-width: 84.8%;
+width:85.6%;
 padding: 20px;
-margin-left: 38px;
+margin-left: 43px;
 }
 
 .acheader {
