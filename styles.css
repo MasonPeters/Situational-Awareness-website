@@ -1,8 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 
 body {
     background-color: darkblue;
@@ -50,20 +46,14 @@ footer,
     padding-top: 40px;
 }
 
-/* .hero > p {
-    width: 38vw;
-    height: 300px;
-    margin-left: 10px;
-    text-align: end;
-} */
+
 
 .heroContent {
     width: 38vw;
     height: 300px;
     margin-left: 10px;
-    /* background-image: url("../Situational-Awareness-website/Images/"); */
-    /* color: white; */
-    background-color: red;
+     background-image: url("../Situational-Awareness-website/Images/PLACEHOLDER.PNG"); 
+   
 }
 
 .contentSection {
@@ -72,9 +62,7 @@ footer,
 
 .awarenesscontent {
 background-color: white;
-/* width:85.6%; */
 padding: 20px;
-/* margin-left: 43px; */
 margin: 0 5%;
 }
 
@@ -85,9 +73,10 @@ margin: 0 5%;
 }
 
 .hero {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     height: 60vh;
-    background-color: red;
+    background-image: url(/Images/PLACEHOLDER.PNG);
 }
 
 .practice-section {
@@ -127,5 +116,56 @@ margin: 0 5%;
     align-items: center;
     height: 100px;
     margin: auto 0;
-    /* padding: 0 auto; */
+}
+
+/*examples*/
+
+.secflex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    
+}
+.secflex>article{
+    width: 49%;
+    border-right: 2px solid black;
+}
+
+
+.secflex>aside{
+    width: 50%;
+}
+
+
+.ptext{
+    padding: 10px;
+}
+
+.secflex>article>h2{
+    width: 100%;
+    text-align: center;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 400px){
+    .secflex>article{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .secflex>aside{
+        width: 100%;
+    }
+    .ptext{
+        width: 40%;
+    }
 }
