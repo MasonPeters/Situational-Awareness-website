@@ -1,7 +1,8 @@
 
 
 body {
-    background-color: darkblue;
+    /* background-color: rgb(117, 117, 212); */
+    background-image: linear-gradient(to bottom right, rgb(159, 165, 229), rgb(77, 85, 166));
 }
 
 header,
@@ -9,6 +10,7 @@ footer,
 .content {
     margin: 0 5%;
     background-color: white;
+    border: solid black 5px;
 }
 
 .flex {
@@ -22,7 +24,9 @@ footer,
 }
 
 .logo > img {
-    height: 20vh;
+    height: 10vh;
+    border: solid black 5px;
+    margin: 20px;
 }
 
 .topNav {
@@ -76,7 +80,10 @@ margin: 0 5%;
     width: 80%;
     margin-left: 10%;
     height: 60vh;
-    background-image: url(/Images/PLACEHOLDER.PNG);
+    background-image: url(Images/Situational\ awareness\ hero\ image.png);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black 5px;
 }
 
 .practice-section {
@@ -151,6 +158,10 @@ margin: 0 5%;
 aside{
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background-color: rgb(227, 220, 220);
 }
 
 
