@@ -121,9 +121,11 @@ margin: 0 5%;
 }
 
 .practice-section h3 {
-    background-color: #D7ADAD;
+    background-color: #c4a2a2;
     padding-inline: 1rem;
     font-weight: normal;
+    padding: 20px;
+    border: solid black 5px;
 }
 
 .practice-steps {
