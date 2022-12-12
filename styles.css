@@ -1,4 +1,6 @@
-
+p {
+    font-size: 18px;
+}
 
 body {
     /* background-color: rgb(117, 117, 212); */
@@ -27,6 +29,7 @@ footer,
     height: 10vh;
     border: solid black 5px;
     margin: 20px;
+    box-sizing: border-box;
 }
 
 .topNav {
@@ -44,7 +47,14 @@ footer,
     color: black;
     width: 20%;
     text-align: center;
+    size: 20px;
 }
+
+a:hover {
+    transition: all 500ms;
+    background-color: red;
+}
+
 
 .content {
     padding-top: 40px;
@@ -56,18 +66,34 @@ footer,
     width: 38vw;
     height: 300px;
     margin-left: 10px;
-     background-image: url("../Situational-Awareness-website/Images/PLACEHOLDER.PNG"); 
-   
+    color: aliceblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 25px;
+    text-shadow: #F1E5A5 0px 0px 10px;
 }
 
 .contentSection {
     padding: 20px;
 }
 
+.contentSection p{
+    width: 1400px;
+    margin-left: 200px;
+}
+
 .awarenesscontent {
 background-color: white;
 padding: 20px;
 margin: 0 5%;
+}
+
+.awarenesscontent p {
+    background-color: white;
+    padding: 20px;
+    /* margin: 0 5%; */
+    display: flex;
+    justify-content: center;
 }
 
 .acheader {
@@ -82,7 +108,7 @@ margin: 0 5%;
     height: 60vh;
     background-image: url(Images/Situational\ awareness\ hero\ image.png);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     border: solid black 5px;
 }
 
@@ -163,6 +189,40 @@ aside{
 footer {
     background-color: rgb(227, 220, 220);
 }
+
+.heroContent p {
+   font-size: 90px;
+}
+
+.heroContent div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .ExamplesDiv img {
+    width: 300px;
+ }
+
+ .ExamplesDiv article {
+    width: 1000px;
+ }
+
+ .ExamplesDiv p {
+    width: 200px;
+ }
+
+
+ .ExamplesDiv section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .ExamplesDiv section:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+ }
 
 
 
