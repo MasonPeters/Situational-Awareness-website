@@ -110,6 +110,11 @@ a:hover {
     border-radius:  25px 25px 25px 25px;
 }
 
+.FirstIndexText img {
+    border: solid rgb(175, 163, 113) 5px;
+    border-radius:  25px 25px 25px 25px;
+}
+
 
 .SecondIndexText {
     text-align: left;
@@ -123,9 +128,12 @@ a:hover {
     background-color: #d9e6e8;
     border: solid rgb(227, 213, 158) 5px;
     padding: 20px;
-    height: 30vh;
+    height: 20vh;
     border-radius:  25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 
 .heroContent {
@@ -270,6 +278,15 @@ aside{
 
 footer {
     background-color: rgb(227, 220, 220);
+    height: 30vh;
+}
+
+.FooterCreditsContacts {
+    margin-left: 20px;
+}
+
+.footer-navbar {
+    width: 50px;
 }
 
 .heroContent p {
@@ -327,8 +344,192 @@ footer {
     justify-content: center;
  }
 
+  /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+ /* ----------------------------------------------------------------- */
+                           /* MEDIA WORKINGS */
 
+@media screen and (max-width: 1650px) {
+    .SecondIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .SecondIndexText div{
+        width: 1000px;
+    }
+    
+}
 
+@media screen and (max-width: 1240px) {
+    .SecondIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .SecondIndexText div{
+        width: 700px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 1620px) {
+    .ExamplesDiv img {
+        width: 300px;
+        border: #794642 solid 5px;
+     }
+    
+     .ExamplesDiv article {
+        width: 500px;
+     }
+    
+     .ExamplesDiv p {
+        width: 350px;
+        margin-top: 0;
+        padding-top: 5px;
+     }
+
+     .ExamplesDiv h4 {
+        width: 350px;
+        margin-bottom: 0;
+        border-bottom: none;
+     }
+    
+     @media screen and (max-width: 1000px) {
+        .ExamplesDiv img {
+            width: 300px;
+            border: #794642 solid 5px;
+         }
+        
+         .ExamplesDiv article {
+            width: 250px;
+            margin-right: 150px;
+         }
+        
+         
+
+        .ExamplesDiv 
+        p,
+       .ExamplesDiv h4 {
+        background-color: #d9e6e8;
+        padding: 10px;
+        border: solid 5px  #dfcba8;
+         }
+    
+    .ExamplesDiv h4 {
+        width: 350px;
+        margin-bottom: 0;
+        border-bottom: none;
+     }
+    
+     .ExamplesDiv section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+}
+
+@media screen and (max-width: 800px) {
+    .practice-section h3 {
+        margin-top: 100px;
+        background-color: #cfe4e2;
+        padding-inline: 1rem;
+        font-weight: normal;
+        padding: 20px;
+        border: solid rgb(33, 94, 113) 5px;
+        width: 300px;
+        text-align: center;
+        border-radius: 25px 25px 25px;
+    }
+
+    .practice-steps {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .ExamplesDiv section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .SecondIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FirstIndexText div {
+        height: 35vh;
+    }
+
+    .FirstIndexText  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .SecondIndexText div{
+        width: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .SecondIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .SecondIndexText div{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .heroContent p {
+        width: fit-content;
+        font-size: 55px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .SecondIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .SecondIndexText div{
+        width: 350px;
+    }
+
+    .heroContent {
+        font-size: 2px;
+    }
+    
+}
 
 
 /* @media screen and (min-width: 400px){
