@@ -531,6 +531,22 @@ footer {
     
 }
 
+@media screen and (max-width:539px) {
+    .FirstIndexText {
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: ;
+    }
+    
+    .FirstIndexText div{
+        width: 350px;
+    }
+
+    
+}
+
 
 /* @media screen and (min-width: 400px){
     .secflex>article{
