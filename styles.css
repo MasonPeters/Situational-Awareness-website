@@ -324,7 +324,7 @@ footer {
     padding-top: 5px;
  }
 
- .ExamplesDiv 
+    .ExamplesDiv 
     p,
    .ExamplesDiv h4 {
     background-color: #d9e6e8;
@@ -537,7 +537,6 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: ;
     }
     
     .FirstIndexText div{
@@ -547,18 +546,139 @@ footer {
     
 }
 
+@media screen and (max-width:400px) {
+    .FirstIndexText div{
+        width: 250px;
+        height: 40vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-/* @media screen and (min-width: 400px){
-    .secflex>article{
-        width: 100%;
+    .SecondIndexText div{
+        width: 250px;
+        height: 40vh;
+    }
+
+    .heroContent p {
+        width: fit-content;
+        font-size: 45px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .heroContent h2 {
+        width: fit-content;
+        font-size: 25px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+/* ------ EXAMPLES PHONE MEDIA*/
+    .ExamplesDiv img {
+        width: 220px;
+        border: #794642 solid 5px;
+        margin-top: 62px;
+        margin-bottom: 3px;
+     }
+    
+     .ExamplesDiv h4 {
+        width: 250px;
+        margin-bottom: 0;
+        border-bottom: none;
+     }
+
+     .ExamplesDiv article {
+        width: 230px;
+        flex-direction: column;
+        height: 48.2vh;
+        margin-left: 0px;
+        margin-right: 0px;
+     }
+    
+     
+
+    .ExamplesDiv 
+    p,
+   .ExamplesDiv h4 {
+    background-color: #d9e6e8;
+    padding: 10px;
+    border: solid 5px  #dfcba8;
+    flex-direction: column;
+    margin: 0;
+     }
+
+     .ExamplesDiv p  {
+        height: 45vh;
+        width: 200px;
+        margin-bottom: 50px;
+     }
+
+    
+
+.ExamplesDiv h4 {
+    width: 200px;
+    margin-bottom: 0;
+    border-bottom: none;
+ }
+
+ .ExamplesDiv section {
+    margin-right: 5px;
+ }
+}
+
+    footer {
+        height: 40vh;
+    }
+    
+    .hero {
+        margin-right: 35px;
+    }
+
+    /* ------ METHODS PHONE MEDIA*/
+
+    .practice-section h3 {
+        width: 200px;
+    }
+
+    .practice-steps {
+        width: 200px;
+        height: 30vh;
+    }
+
+    .practice-steps p{
+        margin-top: 100px;
+        padding-right: 10px;
+    }
+
+    .topNav > a {
+        background-color: #b8cbd1;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        border: solid #a2a6a7 5px;
+        width: 50%;
+        text-align: center;
+       
+    }
+
+    .topNav {
+        width: 80%;
+        background-color: #c0b7af;
+        padding: 5px;
         display: flex;
-        justify-content: center;
-        flex-wrap: nowrap;
+        justify-content: space-around;
+        border: solid rgb(211, 206, 168) 5px;
+        margin-bottom: 15px;
     }
-    .secflex>aside{
-        width: 100%;
+
+    .FirstIndexText img {
+        width: 200px;
+        margin-left: 0;
     }
-    .ptext{
-        width: 40%;
-    }
-} */
+}
+
+
