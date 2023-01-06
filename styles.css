@@ -468,11 +468,18 @@ footer {
 
     .FirstIndexText div {
         height: 35vh;
+        margin-left: 0%;
     }
+
+   
 
     .FirstIndexText  {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        
     }
     
     .SecondIndexText div{
@@ -535,7 +542,12 @@ footer {
         width: 350px;
     }
 
-    
+}
+
+@media screen and (max-width:715px) {
+    .FirstIndexText div{
+        height: 350px;
+    }
 }
 
 @media screen and (max-height:500px) {
