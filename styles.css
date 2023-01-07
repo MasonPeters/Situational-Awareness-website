@@ -526,7 +526,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .SecondIndexText {
         text-align: left;
         justify-content: center;
