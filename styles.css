@@ -542,7 +542,7 @@ footer {
         font-size: 2px;
     }
     
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 420px) {
         .heroContent p {
            font-size: 36px;
         }
