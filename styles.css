@@ -458,7 +458,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1090px) {
     .SecondIndexText {
         text-align: left;
         justify-content: center;
@@ -467,7 +467,6 @@ footer {
     }
 
     .FirstIndexText div {
-        height: 35vh;
         margin-left: 0%;
     }
 
@@ -481,11 +480,26 @@ footer {
         margin-left: 5%;
         
     }
+
+    .FirstIndexText img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        
+    }
     
     .SecondIndexText div{
         width: 500px;
     }
     
+}
+
+@media screen and (max-width: 1090px) {
+    .FirstIndexText div {
+        height: 35vh;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -528,6 +542,10 @@ footer {
         font-size: 2px;
     }
     
+    @media screen and (max-width: 350px) {
+        .heroContent p {
+           font-size: 36px;
+        }
 }
 
 @media screen and (max-width:539px) {
@@ -544,11 +562,7 @@ footer {
 
 }
 
-@media screen and (max-width:715px) {
-    .FirstIndexText div{
-        height: 350px;
-    }
-}
+
 
 @media screen and (max-height:500px) {
     .FirstIndexText div{
