@@ -498,7 +498,7 @@ footer {
 
 @media screen and (max-width: 1090px) {
     .FirstIndexText div {
-        height: 50vh;
+        height: 55vh;
     }
 }
 
@@ -511,7 +511,7 @@ footer {
     }
     
     .SecondIndexText div{
-        width: 350px;
+        width: 250px;
     }
     
 }
@@ -539,7 +539,7 @@ footer {
     }
 
     .heroContent {
-        font-size: 2px;
+        font-size: 14px;
     }
     
     @media screen and (max-width: 420px) {
