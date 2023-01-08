@@ -128,7 +128,7 @@ a:hover {
     background-color: #d9e6e8;
     border: solid rgb(227, 213, 158) 5px;
     padding: 20px;
-    height: 20vh;
+    height: 40vh;
     border-radius:  25px 25px 25px 25px;
     display: flex;
     flex-direction: column;
@@ -467,7 +467,7 @@ footer {
     }
 
     .FirstIndexText div {
-        margin-left: 0%;
+        margin-left: 5%;
     }
 
    
@@ -498,7 +498,7 @@ footer {
 
 @media screen and (max-width: 1090px) {
     .FirstIndexText div {
-        height: 35vh;
+        height: 50vh;
     }
 }
 
@@ -535,7 +535,7 @@ footer {
     }
     
     .SecondIndexText div{
-        width: 350px;
+        width: 250px;
     }
 
     .heroContent {
@@ -557,7 +557,7 @@ footer {
     }
     
     .FirstIndexText div{
-        width: 350px;
+        width: 250px;
     }
 
 }
@@ -649,7 +649,7 @@ footer {
 }
 
     footer {
-        height: 40vh;
+        height: 45vh;
     }
     
     .hero {
