@@ -642,16 +642,16 @@ footer {
 
     
 
-.ExamplesDiv h4 {
+    .ExamplesDiv h4 {
     width: 200px;
     margin-bottom: 0;
     border-bottom: none;
- }
+    }
 
- .ExamplesDiv section {
+    .ExamplesDiv section {
     margin-right: 5px;
- }
-}
+    }
+    }
 
     footer {
         height: 45vh;
@@ -689,7 +689,7 @@ footer {
     }
 
     .topNav {
-        width: 80%;
+        width: 90%;
         background-color: #c0b7af;
         padding: 5px;
         display: flex;
