@@ -500,6 +500,10 @@ footer {
     .FirstIndexText div {
         height: 55vh;
     }
+
+    .SecondIndexText div {
+        height: 30vh;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -512,6 +516,7 @@ footer {
     
     .SecondIndexText div{
         width: 250px;
+        height: 40vh;
     }
     
 }
@@ -526,7 +531,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     .SecondIndexText {
         text-align: left;
         justify-content: center;
@@ -542,7 +547,7 @@ footer {
         font-size: 14px;
     }
     
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 480px) {
         .heroContent p {
            font-size: 36px;
         }
@@ -851,4 +856,4 @@ footer {
     }
 
 
-}
+}}
